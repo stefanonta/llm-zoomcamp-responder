@@ -221,4 +221,5 @@ __marimo__/
 .DS_Store
 
 # Project-specific
+.cursor/
 rag_helper.py
