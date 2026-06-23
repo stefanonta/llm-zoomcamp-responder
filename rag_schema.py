@@ -90,4 +90,4 @@ class RAGPipeline:
         prompt_context = self.build_context(search_results)
         prompt = self.build_prompt(prompt_context, user_query)
         answer, usage = self.answer(prompt) # this line unpacks the tuple returned by the answer method into two variables: answer and usage
-        return answer, usage
+        return answer, usage        
